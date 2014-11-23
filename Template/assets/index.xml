@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results trackingurl="html/resources/TrackingData.zip">
+  <arel><![CDATA[html/index.html?a9d2573166a1e90af140c42dc2023b74]]></arel>
+  <object id="image1">
+    <title><![CDATA[600px-Rafael_-_Virtudes_Teologales_y_la_Ley_(Estancia_del_Sello,_Vaticano,_1511)]]></title>
+    <assets3d>
+      <model><![CDATA[html/resources/34b6f9442f6da878776a02fea74e13cd/34b6f9442f6da878776a02fea74e13cd.zip]]></model>
+      <transform>
+        <translation>
+          <x>20.1401901245</x>
+          <y>-16.235912323</y>
+          <z>5.0010790825</z>
+        </translation>
+        <rotation type="eulerdeg">
+          <x>0.0</x>
+          <y>0.0</y>
+          <z>0.0</z>
+        </rotation>
+        <scale>
+          <x>0.6422195435</x>
+          <y>0.6422195435</y>
+          <z>0.6422195435</z>
+        </scale>
+      </transform>
+      <properties>
+        <coordinatesystemid>1</coordinatesystemid>
+      </properties>
+    </assets3d>
+    <viewparameters>
+      <visibility>
+        <liveview>false</liveview>
+      </visibility>
+    </viewparameters>
+  </object>
+</results>

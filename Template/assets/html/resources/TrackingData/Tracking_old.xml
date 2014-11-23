@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrackingData>
+    <Sensors>
+        <Sensor Subtype="FAST" Type="FeatureBasedSensorSource">
+            <SensorID>FeatureBasedSensorSource_0</SensorID>
+            <Parameters>
+                <MaxObjectsToDetectPerFrame>5</MaxObjectsToDetectPerFrame>
+                <MaxObjectsToTrackInParallel>1</MaxObjectsToTrackInParallel>
+            </Parameters>
+            <SensorCOS>
+                <SensorCosID>5d50b850d6d991bc1a8d01309c7c1e34</SensorCosID>
+                <Parameters>
+                    <SimilarityThreshold>0.7</SimilarityThreshold>
+                    <ReferenceImage HeightMM="496" WidthMM="416">5d50b850d6d991bc1a8d01309c7c1e34.jpg</ReferenceImage>
+                </Parameters>
+            </SensorCOS>
+        </Sensor>
+    </Sensors>
+    <Connections>
+        <COS>
+            <Name>518px-Self-portrait_at_the_Easel_Painting_a_Devotional_Panel_by_Sofonisba_Anguissola_1</Name>
+            <Fuser Type="SmoothingFuser">
+                <Parameters>
+                    <AlphaRotation>0.8</AlphaRotation>
+                    <AlphaTranslation>1.0</AlphaTranslation>
+                    <GammaRotation>0.8</GammaRotation>
+                    <GammaTranslation>1.0</GammaTranslation>
+                    <KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames>
+                </Parameters>
+            </Fuser>
+            <SensorSource>
+                <SensorID>FeatureBasedSensorSource_0</SensorID>
+                <SensorCosID>5d50b850d6d991bc1a8d01309c7c1e34</SensorCosID>
+                <HandEyeCalibration>
+                    <TranslationOffset>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                        <w>1.0</w>
+                    </RotationOffset>
+                </HandEyeCalibration>
+                <COSOffset>
+                    <TranslationOffset>
+                        <x>0.5</x>
+                        <y>0.5</y>
+                        <z>0.0</z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                        <w>1.0</w>
+                    </RotationOffset>
+                </COSOffset>
+            </SensorSource>
+        </COS>
+    </Connections>
+</TrackingData>
