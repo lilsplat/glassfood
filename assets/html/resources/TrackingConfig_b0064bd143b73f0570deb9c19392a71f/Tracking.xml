@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrackingData>
+    <Sensors>
+        <Sensor Type="FeatureBasedSensorSource" Subtype="FAST">
+            <SensorID>FeatureBasedSensorSource_0</SensorID>
+            <Parameters>
+                <MaxObjectsToDetectPerFrame>5</MaxObjectsToDetectPerFrame>
+                <MaxObjectsToTrackInParallel>1</MaxObjectsToTrackInParallel>
+            </Parameters>
+            <SensorCOS>
+                <SensorCosID>b4a8ee3ab4f09d6fdf4f3ba3be1cf4fa</SensorCosID>
+                <Parameters>
+                    <SimilarityThreshold>0.7</SimilarityThreshold>
+                    <ReferenceImage HeightMM="696" WidthMM="853">b4a8ee3ab4f09d6fdf4f3ba3be1cf4fa.jpg</ReferenceImage>
+                </Parameters>
+            </SensorCOS>
+            <SensorCOS>
+                <SensorCosID>8a437944e33b4932f7c3ef8077f20611</SensorCosID>
+                <Parameters>
+                    <SimilarityThreshold>0.7</SimilarityThreshold>
+                    <ReferenceImage HeightMM="627" WidthMM="627">8a437944e33b4932f7c3ef8077f20611.jpg</ReferenceImage>
+                </Parameters>
+            </SensorCOS>
+        </Sensor>
+    </Sensors>
+    <Connections>
+        <COS>
+            <Name>photo (9)_1</Name>
+            <Fuser Type="SmoothingFuser">
+                <Parameters>
+                    <AlphaRotation>0.8</AlphaRotation>
+                    <AlphaTranslation>1.0</AlphaTranslation>
+                    <GammaRotation>0.8</GammaRotation>
+                    <GammaTranslation>1.0</GammaTranslation>
+                    <KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames>
+                </Parameters>
+            </Fuser>
+            <SensorSource>
+                <SensorID>FeatureBasedSensorSource_0</SensorID>
+                <SensorCosID>b4a8ee3ab4f09d6fdf4f3ba3be1cf4fa</SensorCosID>
+                <HandEyeCalibration>
+                    <TranslationOffset>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                        <w>1.0</w>
+                    </RotationOffset>
+                </HandEyeCalibration>
+                <COSOffset>
+                    <TranslationOffset>
+                        <x>0.5</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                        <w>1.0</w>
+                    </RotationOffset>
+                </COSOffset>
+            </SensorSource>
+        </COS>
+        <COS>
+            <Name>photo (9)_2</Name>
+            <Fuser Type="SmoothingFuser">
+                <Parameters>
+                    <AlphaRotation>0.8</AlphaRotation>
+                    <AlphaTranslation>1.0</AlphaTranslation>
+                    <GammaRotation>0.8</GammaRotation>
+                    <GammaTranslation>1.0</GammaTranslation>
+                    <KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames>
+                </Parameters>
+            </Fuser>
+            <SensorSource>
+                <SensorID>FeatureBasedSensorSource_0</SensorID>
+                <SensorCosID>8a437944e33b4932f7c3ef8077f20611</SensorCosID>
+                <HandEyeCalibration>
+                    <TranslationOffset>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                        <w>1.0</w>
+                    </RotationOffset>
+                </HandEyeCalibration>
+                <COSOffset>
+                    <TranslationOffset>
+                        <x>122.5</x>
+                        <y>0.5</y>
+                        <z>0.0</z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                        <w>1.0</w>
+                    </RotationOffset>
+                </COSOffset>
+            </SensorSource>
+        </COS>
+    </Connections>
+</TrackingData>
