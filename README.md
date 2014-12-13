@@ -8,7 +8,7 @@ NutriGlass is an application for the Google Glass that provides an augmented rea
 Implementation
 -------------
 
-NutriGlass uses the Metaio SDK to perform 2D image recognition of food and the Glass Development Kit to track and display information about the user's health and nutrition. Metaio uses Glass' camera view to recognize pre-loaded images using its own computer vision algorithm. The recognized image cues the display of a card containing the user's nutritional information, which keeps track of what percentage of each food group the user has consumed that day as per the USDA's health guidelines.
+NutriGlass uses the Metaio SDK to perform 2D image recognition of food and to overlay information that track's a user's  nutrition intake during each meal. Metaio uses Glass' camera view to recognize pre-loaded images using its own computer vision algorithm. The recognized image cues the display of a visualizations containing the user's nutritional information, which keeps track of what percentage of each food group the user has consumed that day as per the USDA's health guidelines.
 
 Related Resources
 -------------
